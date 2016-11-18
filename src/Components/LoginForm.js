@@ -22,14 +22,14 @@ class LoginForm extends Component {
 
   renderButton() {
     if (this.props.loading) {
-      return <Spinner size="large" />
+      return <Spinner size="large" />;
     }
-    
+
      return (
        <Button onPress={this.onButtonPress.bind(this)}>
          Login
        </Button>
-     )
+     );
   }
 
   render() {
@@ -68,7 +68,6 @@ class LoginForm extends Component {
 
 const mapStateToProp = ({ auth }) => {
   const { email, password, error, loading } = auth;
-
   return { email, password, error, loading };
 };
 
