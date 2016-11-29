@@ -8,7 +8,6 @@ import ListItem from './ListItem';
 class EmployeeList extends Component {
   componentWillMount() {
     this.props.employeesFetch();
-
     this.createDataSource(this.props);
   }
 

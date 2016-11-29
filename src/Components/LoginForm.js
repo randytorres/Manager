@@ -1,10 +1,15 @@
 import React, { Component } from 'react';
 import { Text } from 'react-native';
 import { connect } from 'react-redux';
+// import firebase from 'firebase';
+// import { Actions } from 'react-native-router-flux';
 import { Card, CardSection, Input, Button, Spinner } from './Common';
 import { emailChanged, passwordChanged, loginUser } from '../actions';
 
 class LoginForm extends Component {
+  // componentWillMount() {
+  //
+  // }
 
   onEmailChange(text) {
     this.props.emailChanged(text);

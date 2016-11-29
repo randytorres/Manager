@@ -9,11 +9,11 @@ import Router from './Router';
 export default class App extends Component {
   componentWillMount() {
     const config = {
-      apiKey: 'AIzaSyCHZmgpmqyH2LGIIKUSfuxboOMj2Zf0avc',
-      authDomain: 'manager-520d6.firebaseapp.com',
-      databaseURL: 'https://manager-520d6.firebaseio.com',
-      storageBucket: 'manager-520d6.appspot.com',
-      messagingSenderId: '1085524159564'
+      apiKey: 'AIzaSyAh5Rpk3uwqxIsmlWzibQMpZCe6DK6eB5U',
+      authDomain: 'chat-app-3ce09.firebaseapp.com',
+      databaseURL: 'https://chat-app-3ce09.firebaseio.com',
+      storageBucket: 'chat-app-3ce09.appspot.com',
+      messagingSenderId: '144149829282'
   };
 
     firebase.initializeApp(config);
