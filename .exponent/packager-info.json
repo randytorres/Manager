@@ -1,0 +1,8 @@
+{
+  "exponentServerPort": 19000,
+  "packagerPort": 19001,
+  "packagerPid": 37025,
+  "exponentServerNgrokUrl": "https://qs-gc5.torresr14.exponentmanager.exp.direct",
+  "packagerNgrokUrl": "https://packager.qs-gc5.torresr14.exponentmanager.exp.direct",
+  "ngrokPid": 37166
+}

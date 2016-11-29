@@ -1,4 +1,4 @@
-import { AppRegistry } from 'react-native';
+import Exponent from 'exponent';
 import App from './src/App';
 
-AppRegistry.registerComponent('Manager', () => App);
+Exponent.registerRootComponent(App);
